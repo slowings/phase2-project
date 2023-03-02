@@ -14,6 +14,7 @@ With  possible predictors from the original columns, and our engeneered column o
 Using an OLS model we were able to identify the impact of both a homes quality (grade) on the mean price, as well as prove that certain amenities are just too pricey to justify for a midrange home.
 
 ### Limitations
+Our model had a large MAE even for home prices, and the plot of our residuals demonstrated imperfect distribution.
 
 ### Next Steps
 Affordable housing is a challange to find in the best of times, and often neighborhoods with lower housing prices are located nearby inherant health dangers like freeways or large industrial areas, or lack the kinds of amennities that inhance quality of life, like greenspaces and grocery stores. Our next steps would be overlay a map of such amenities or dangers over the neighborhoods we've identified as being our most affordable, to analyze the additional benefits and risks of those neighborhoods and to allow our client to have a fuller understanding of its benefits or disadvantages.
