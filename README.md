@@ -1,4 +1,4 @@
-# Budget Friendly Housing in In Kings County
+# Budget Friendly Housing in Kings County
 ## Seattle Metro Area Housing Analysis
 
 ### Overview and Business understanding
