@@ -13,6 +13,8 @@ With  possible predictors from the original columns, and our engeneered column o
 ### Modeling
 Using an OLS model we were able to identify the impact of both a homes quality (grade) on the mean price, as well as prove that certain amenities are just too pricey to justify for a midrange home.
 
+### Recommendations
+
 ### Limitations
 Our model had a large MAE even for home prices, and the plot of our residuals demonstrated imperfect distribution.
 
