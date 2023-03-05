@@ -1,6 +1,8 @@
 # Budget Friendly Housing in Kings County
 ## Seattle Metro Area Housing Analysis
 
+
+
 ### Overview and Business understanding
 For this project we'll be taking a look at housing sale data from the King's County Sales dataset, which can be found in kc_house_data.csv. Each record represents a house sale in the Seattle area for the year 2021-2022.  Our Client, a real estate agency, specializes in the elusive mid-range home, and is looking for neighborhoods to target to increase their inventory. Our client would like to target the incorporated areas of Kings County, which as a whole covers roughly 10% of Washington state, and so we'll reduce the size of our dataset to reflect that change.  We'll also keep our eye out for any features that might radically boost home price, such as waterfont properties, or homes adjacent to parks or greenways to provide a list of features or locations associated with inflated pricing- in other words, a "what to avoid". 
 
@@ -14,6 +16,8 @@ With  possible predictors from the original columns, and our engeneered column o
 Using an OLS model we were able to identify the impact of both a homes quality (grade) on the mean price, as well as prove that certain amenities are just too pricey to justify for a midrange home.
 
 ### Recommendations
+Using our final model we identified which neighborhoods we would be able to locate housing in two distinct areas that would be in the lowest mean price by zipcode.  South of SeaTac: 98023: Federal Way, 98092: Auburn, 98422:Tacoma, 98030: Kent and east of Mercer Island in the neighborhoods of Issaquah and Bellevue.                                                        
+We can also see that we'll want to look for houses that are in low to average grade, as we see prices jumping over the median once we've crossed the average grade threshhold.  Additionally, while we'll want to avoid waterfront homes because of the significant jump in price (about a million dollars), our real estate agent might want to target homes that are located near greenbelts or parks, which have a significantly lower jump in price- around 5,500.
 
 ### Limitations
 Our model had a large MAE even for home prices, and the plot of our residuals demonstrated imperfect distribution.
